@@ -1,0 +1,25 @@
+
+Construir um motor de cálculo de reembolso de despesas seguindo Spec Driven Development.
+
+## Regras de trabalho
+
+- A spec.md é a fonte da verdade para regras de negócio.
+- Não criar regra de negócio apenas no chat.
+- Se uma regra mudar, atualizar primeiro a spec e registrar a mudança em DECISIONS.md.
+- Cada implementação deve estar ligada a uma task de tasks.md.
+- Cada task deve ter teste automatizado.
+- Evitar complexidade desnecessária.
+- Antes de considerar uma task concluída, executar os testes relacionados.
+- Não alterar o formato de entrada definido no exemplo fornecido pelo desafio.
+- Manter a saída JSON previsível e documentada na spec.
+
+
+## Antes de codificar
+
+1. Ler spec.md.
+2. Conferir a task correspondente em tasks.md.
+3. Implementar apenas o necessário para a task.
+4. Criar ou atualizar os testes.
+5. Rodar os testes.
+6. Revisar o diff antes do commit.
+
